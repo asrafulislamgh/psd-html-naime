@@ -25,6 +25,11 @@ h6 {
   padding: 0;
   margin: 0;
 }
+h1,
+h2 {
+  font-family: "ChunkFive-Regular";
+  font-weight: bolder;
+}
 
 :root {
   --custom-blue: #027bfe;
@@ -61,6 +66,7 @@ h6 {
   color: #fff;
   font-size: 1.75rem;
   font-weight: bold;
+  font-family: "ChunkFive-Regular";
 }
 .profile-content p {
   color: #81bdff;
@@ -93,7 +99,7 @@ h6 {
   border-radius: 1.2rem;
   padding: 1rem;
   position: relative;
-  top: -62px;
+  top: -18px;
   box-shadow: 0 4px 8px 0 rgba(2, 123, 254, 0.25);
 }
 .alert-box h1 {
