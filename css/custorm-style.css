@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --custom-blue: #027bfe;
+}
+
+.bg-cus-blue {
+  background: var(--custom-blue);
+}
+
+.top-profile-bg {
+  margin-top: 2px;
+  border-bottom-left-radius: 1.2rem;
+  border-bottom-right-radius: 1.2rem;
+}
+
+.vip-btn {
+  background-color: #81bdff;
+  color: white;
+  font-size: 1.75rem;
+}
+.reputation-btn {
+  background-color: #fff;
+  color: #333333;
+  font-size: 1.75rem;
+}
+.reputation-btn img {
+  height: 100%;
+  width: 100%;
+}
+.profile-section img {
+  height: 100%;
+}
+.profile-content h1 {
+  color: #fff;
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+.profile-content p {
+  color: #81bdff;
+  font-size: 1.25rem;
+}
+.profile-content button {
+  color: var(--custom-blue);
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+.booking-content h3 {
+  font-size: 1.1rem;
+  color: #333333;
+  font-weight: bold;
+}
+.footer-tab {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+  padding: 1rem 0;
+}
+.footer-tab i {
+  font-size: 1.5rem;
+}
+.footer-tab:hover {
+  color: rgba(255, 255, 255, 1);
+  background-color: #0262cb;
+}
+.alert-box {
+  background-color: rgb(255, 255, 255);
+  border-radius: 1.2rem;
+  padding: 1rem;
+  position: relative;
+  top: -62px;
+  box-shadow: 0 4px 8px 0 rgba(2, 123, 254, 0.25);
+}
+.alert-box h1 {
+  background-color: rgb(255, 255, 255);
+  border-radius: 1.2rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.alert-box p {
+  font-size: 1.25rem;
+}
+.alert-box button {
+  font-size: 1.1rem;
+  text-transform: capitalize;
+}
+.alert-box button:hover {
+  background-color: #0262cb;
+}
