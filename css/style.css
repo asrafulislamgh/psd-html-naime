@@ -52,6 +52,10 @@ h3 {
   border-bottom-left-radius: 1.2rem;
   border-bottom-right-radius: 1.2rem;
 }
+.profile-icon-sm{
+  width: 36px;
+  border-radius: 50%;
+}
 .fa-ellipsis-v {
   font-size: 2.25rem;
 }
@@ -97,6 +101,8 @@ h3 {
 }
 .profile-section img {
   height: 100%;
+  width: 88px;
+  border-radius: 50%;
 }
 .profile-content h1 {
   color: #fff;
