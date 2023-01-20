@@ -136,3 +136,8 @@ h3 {
 .alert-box button:hover {
   background-color: #0262cb;
 }
+.footer-tab span {
+  color: var(--custom-blue);
+  font-size: 0.9rem;
+  margin: -0.5rem -7px;
+}
