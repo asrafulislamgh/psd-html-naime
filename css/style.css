@@ -26,7 +26,8 @@ h6 {
   margin: 0;
 }
 
-p {
+p,
+h3 {
   font-family: "Segoe UI Regular";
 }
 .title {
@@ -62,6 +63,18 @@ p {
 .vip-btn i {
   font-size: 1.5rem;
 }
+
+.starter-btn {
+  background-color: white;
+  color: #333333;
+}
+
+.starter-btn img {
+  height: 23px;
+  width: auto;
+  margin-top: 3px;
+}
+
 .reputation-btn {
   background-color: white;
   color: #333333;
@@ -71,11 +84,13 @@ p {
   width: auto;
 }
 .vip-btn,
+.starter-btn,
 .reputation-btn {
   height: 40px;
   width: 30%;
 }
 .vip-btn h3,
+.starter-btn h3,
 .reputation-btn h3 {
   font-size: 1.625rem;
   font-family: "Segoe UI Bold";
@@ -157,7 +172,7 @@ p {
   margin: -0.5rem -7px;
 }
 .booking-wrapper {
-  height: 60vh;
+  height: 35vh;
   overflow-x: auto;
 }
 .booking-wrapper .col {
@@ -188,8 +203,6 @@ p {
   }
 }
 
-
-
 /* section scrollbar */
 /* width */
 ::-webkit-scrollbar {
@@ -200,14 +213,14 @@ p {
 ::-webkit-scrollbar-track {
   background: #fff;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #81bdff; 
+  background: #81bdff;
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #409afd; 
+  background: #409afd;
 }
