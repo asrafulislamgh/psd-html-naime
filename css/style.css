@@ -234,6 +234,19 @@ h3 {
 .time-chat p {
   font-size: 1rem;
 }
+.vip-btn-sm {
+  background-color: #81bdff;
+  font-size: 0.7rem;
+  width: 60%;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  right: 0;
+  bottom: -32px;
+}
+.vip-btn-sm .fa-gem {
+  padding: 0 5px;
+}
 
 /* ================= Profile page style ================ */
 .profile-field h3 {
@@ -254,6 +267,9 @@ h3 {
   background-color: var(--custom-blue) !important;
 }
 
+textarea {
+  border: 1px solid var(--custom-blue) !important;
+}
 /* ================= media query ================ */
 
 @media screen and (max-width: 400px) {
