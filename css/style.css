@@ -249,16 +249,19 @@ h3 {
 }
 
 /* ================= Profile page style ================ */
+.input-info .textarea-info {
+  margin-bottom: 1.6rem;
+}
 .profile-field h3 {
   font-size: 1.1rem;
   font-weight: bold;
 }
-.profile-field p {
+.sub-title {
   font-size: 1rem;
   margin-bottom: 0.8rem;
 }
 .profile-field input {
-  margin-bottom: 1.6rem;
+  /* margin-bottom: 1.6rem; */
 }
 .btn-primary,
 .btn-primary:hover,
@@ -269,6 +272,14 @@ h3 {
 
 textarea {
   border: 1px solid var(--custom-blue) !important;
+}
+.profile-field label {
+  color: var(--custom-blue) !important;
+}
+.char-count {
+  font-size: 0.8rem;
+  text-align: right;
+  margin-top: 0.3rem;
 }
 /* ================= media query ================ */
 
