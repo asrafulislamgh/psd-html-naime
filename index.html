@@ -52,18 +52,27 @@
               />
             </a>
 
-            <button
-              class="navbar-toggler"
-              style="display: block"
-              type="button"
-              data-mdb-toggle="collapse"
-              data-mdb-target="#navbarTogglerDemo03"
-              aria-controls="navbarTogglerDemo03"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <i class="fas fa-ellipsis-v text-white"></i>
-            </button>
+            <div class="dropdown">
+              <button
+                class="btn shadow-none px-2"
+                type="button"
+                id="dropdownMenuButton"
+                data-mdb-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i class="fas fa-ellipsis-v text-white"></i>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="#">Settings</a></li>
+                <li><a class="dropdown-item" href="#">Subscription</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Transactions</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Call History</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </nav>
