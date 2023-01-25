@@ -212,7 +212,7 @@ h3 {
   background: #409afd;
 }
 
-/* chat-overview style  */
+/* ================= chat-overview style ================ */
 .sub-directory {
   font-size: 2.2rem;
   font-family: "ChunkFive-Regular";
@@ -235,7 +235,27 @@ h3 {
   font-size: 1rem;
 }
 
-/* media query  */
+/* ================= Profile page style ================ */
+.profile-field h3 {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.profile-field p {
+  font-size: 1rem;
+  margin-bottom: 0.8rem;
+}
+.profile-field input {
+  margin-bottom: 1.6rem;
+}
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: var(--custom-blue) !important;
+}
+
+/* ================= media query ================ */
+
 @media screen and (max-width: 400px) {
   .booking-content h3 {
     font-size: 4vw;
