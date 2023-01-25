@@ -252,16 +252,21 @@ h3 {
 .input-info .textarea-info {
   margin-bottom: 1.6rem;
 }
+.input-info p,
+.textarea-info p {
+  color: #666666;
+}
 .profile-field h3 {
   font-size: 1.1rem;
   font-weight: bold;
+  color: #333333;
+}
+.semi-title {
+  color: #333333;
 }
 .sub-title {
   font-size: 1rem;
   margin-bottom: 0.8rem;
-}
-.profile-field input {
-  /* margin-bottom: 1.6rem; */
 }
 .btn-primary,
 .btn-primary:hover,
@@ -274,12 +279,13 @@ textarea {
   border: 1px solid var(--custom-blue) !important;
 }
 .profile-field label {
-  color: var(--custom-blue) !important;
+  color: #81bdff !important;
 }
 .char-count {
   font-size: 0.8rem;
   text-align: right;
   margin-top: 0.3rem;
+  color: #666666;
 }
 /* ================= media query ================ */
 
