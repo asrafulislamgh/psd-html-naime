@@ -190,30 +190,6 @@ h3 {
   width: 75px;
 }
 
-/* media query  */
-@media screen and (max-width: 400px) {
-  .booking-content h3 {
-    font-size: 4vw;
-  }
-  .booking-content p {
-    font-size: 4vw;
-  }
-  .booking-content .row > p {
-    font-size: 4vw;
-  }
-}
-@media screen and (max-width: 345px) {
-  .booking-content h3 {
-    font-size: 3vw;
-  }
-  .booking-content p {
-    font-size: 3vw;
-  }
-  .booking-content .row > p {
-    font-size: 3vw;
-  }
-}
-
 /* section scrollbar */
 /* width */
 ::-webkit-scrollbar {
@@ -234,4 +210,61 @@ h3 {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #409afd;
+}
+
+/* chat-overview style  */
+.sub-directory {
+  font-size: 2.2rem;
+  font-family: "ChunkFive-Regular";
+  color: #81bdff;
+  padding: 0;
+  margin-left: -10px;
+}
+.booking-wrapper-chat-overview {
+  height: 74vh;
+  padding-bottom: 20px;
+}
+.message-heading {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.time-chat h4 {
+  font-size: 1rem;
+}
+.time-chat p {
+  font-size: 1rem;
+}
+
+/* media query  */
+@media screen and (max-width: 400px) {
+  .booking-content h3 {
+    font-size: 4vw;
+  }
+  .time-chat h4,
+  .time-chat p {
+    font-size: 3vw;
+  }
+  .booking-content p {
+    font-size: 4vw;
+  }
+  .booking-content .row > p {
+    font-size: 4vw;
+  }
+  .message-heading h3 {
+    font-size: 5vw;
+  }
+}
+@media screen and (max-width: 345px) {
+  .booking-content h3 {
+    font-size: 3vw;
+  }
+  .booking-content p {
+    font-size: 3vw;
+  }
+  .booking-content .row > p {
+    font-size: 3vw;
+  }
+  .message-heading h3 {
+    font-size: 4vw;
+  }
 }
