@@ -384,6 +384,83 @@ textarea {
   color: #ffffff;
   padding: 0.6rem 1rem;
 }
+/* ================= profile dashboard ================ */
+.dashboard-header {
+  margin-bottom: 2.9rem;
+  margin-top: 1.25rem;
+}
+.dashboard-header h3 {
+  font-family: "ChunkFive-Regular";
+  font-size: 1.6rem;
+}
+.dashboard-header p {
+  font-size: 1.1rem;
+}
+.check-icon {
+  background-color: #11a955;
+  border-radius: 50%;
+  padding: 0.2rem 0.25rem;
+  color: #fff;
+  margin-left: 5px;
+  border: 2px solid #fff;
+}
+.dark-blue-feature-box {
+  min-height: 154px;
+  background-color: #027bfe;
+  border-radius: 10px;
+  text-align: center;
+}
+.dark-blue-feature-box h3 {
+  font-size: 1.3rem;
+  font-family: "ChunkFive-Regular";
+  text-align: center;
+  padding: 10px 0;
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+  background-color: #0262cb;
+}
+.light-blue-feature-box {
+  min-height: 154px;
+  background-color: #81bdff;
+  border-radius: 10px;
+  /* overflow: hidden; */
+  text-align: center;
+}
+.light-blue-feature-box h3 {
+  font-size: 1.3rem;
+  font-family: "ChunkFive-Regular";
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 10px 10px 0 0;
+  color: #fff;
+  background-color: #027bfe;
+}
+.dashboard-feature-info i {
+  text-align: center;
+  font-size: 2rem;
+  color: #ffffff;
+}
+.dashboard-feature-info p {
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1rem;
+  padding-top: 0.8rem;
+}
+.dashboard-feature-info {
+  padding: 10px;
+}
+.dashboard-feature-light-blue {
+  color: #81bdff;
+}
+.dashboard-feature-dark-blue {
+  color: #027bfe;
+}
+
+.check-icon-top {
+  position: absolute;
+  top: -9px;
+  right: -5px;
+}
 /* ================= media query ================ */
 
 @media screen and (max-width: 400px) {
