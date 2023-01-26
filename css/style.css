@@ -288,6 +288,102 @@ textarea {
   color: #666666;
 }
 
+/* ================= Single chat ================ */
+.user {
+  font-family: "ChunkFive-Regular";
+}
+.time-single p {
+  font-size: 1rem;
+  padding: 0.4rem 0.1rem;
+}
+.line {
+  width: 93vw;
+  border: 1px solid #81bdff;
+  position: absolute;
+  top: 15px;
+  z-index: -1;
+}
+.chatting-time {
+  color: #81bdff;
+  font-size: 1.125rem;
+  background-color: rgb(255, 255, 255);
+  z-index: 1;
+  padding: 0 0.4rem;
+}
+
+.booking-wrapper-single-chat {
+  height: 67vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.booking-wrapper-single-chat img,
+.single-chat-profile img {
+  border-radius: 50%;
+  width: 75px;
+}
+.booking-wrapper-single-chat .col,
+.single-chat-profile .col {
+  padding: 0 6px;
+}
+.chat-box {
+  padding: 0.3rem 0.8rem;
+  width: 75vw;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  margin-bottom: 1.25rem;
+  border: 2px solid;
+}
+.white-box {
+  color: #0262cb;
+  border-color: #0262cb;
+}
+.blue-box {
+  color: #ffffff;
+  border-color: #0262cb;
+  background-color: #0262cb;
+}
+.chatting-time-single-chat {
+  color: #81bdff;
+  font-size: 0.8rem;
+  margin-bottom: -5px;
+}
+.right-box {
+  position: relative;
+  right: 0;
+}
+.input-group-prepend {
+  background-color: #027bfe !important;
+  border-radius: 6px;
+}
+.input-group-prepend input {
+  background-color: #81bdff !important;
+}
+.input-group-text {
+  color: #fff;
+  border: none !important;
+}
+.input-group input {
+  background-color: #81bdff !important;
+}
+.input-group input::placeholder {
+  color: #027bfe !important;
+}
+.input-group-prepend:nth-child(4) {
+  border-left: 1px solid #81bdff;
+  border-right: 2px solid #81bdff;
+}
+
+.default-input input {
+  display: none;
+}
+
+.image-upload > input {
+  display: none;
+}
+.image-upload i {
+  color: #ffffff;
+  padding: 0.6rem 1rem;
+}
 /* ================= media query ================ */
 
 @media screen and (max-width: 400px) {
