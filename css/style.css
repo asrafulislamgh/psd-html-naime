@@ -327,7 +327,7 @@ textarea {
 }
 .chat-box {
   padding: 0.3rem 0.8rem;
-  width: 75vw;
+  width: 75%;
   border-radius: 10px;
   font-size: 1.1rem;
   margin-bottom: 1.25rem;
