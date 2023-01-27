@@ -312,7 +312,7 @@ textarea {
 }
 
 .booking-wrapper-single-chat {
-  height: 67vh;
+  height: calc(100vh - 163px);
   overflow-x: hidden;
   overflow-y: auto;
 }
@@ -386,7 +386,7 @@ textarea {
 }
 /* ================= profile dashboard ================ */
 .dashboard-header {
-  margin-bottom: 2.9rem;
+  margin-bottom: 2.8rem;
   margin-top: 1.25rem;
 }
 .dashboard-header h3 {
@@ -493,5 +493,18 @@ textarea {
   }
   .message-heading h3 {
     font-size: 4vw;
+  }
+  .sub-directory {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (max-width: 380px) {
+  .dark-blue-feature-box h3,
+  .light-blue-feature-box h3 {
+    font-size: 1.1rem;
+  }
+  .dark-blue-feature-box p,
+  .light-blue-feature-box p {
+    font-size: 0.9rem;
   }
 }
