@@ -412,12 +412,17 @@ textarea {
   font-size: 1.1rem;
 }
 .check-icon {
-  background-color: #11a955;
   border-radius: 50%;
   padding: 0.2rem 0.25rem;
   color: #fff;
   margin-left: 5px;
   border: 2px solid #fff;
+}
+.check-icon-green {
+  background-color: #11a955;
+}
+.check-icon-blue {
+  background-color: #027bfe;
 }
 .dark-blue-feature-box {
   min-height: 154px;
