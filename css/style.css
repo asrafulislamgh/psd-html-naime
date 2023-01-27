@@ -404,11 +404,11 @@ textarea {
   margin-bottom: 2.8rem;
   margin-top: 1.25rem;
 }
-.dashboard-header h3 {
+.content-header h3 {
   font-family: "ChunkFive-Regular";
   font-size: 1.6rem;
 }
-.dashboard-header p {
+.content-header p {
   font-size: 1.1rem;
 }
 .check-icon {
@@ -476,7 +476,56 @@ textarea {
   top: -9px;
   right: -5px;
 }
+/* ================= Settings-vip ================ */
+.setting-vip-header {
+  margin-bottom: 1.25rem;
+  margin-top: 1.25rem;
+}
+.settings-advertise {
+  background-color: #027bfe;
+  border-radius: 10px;
+  padding: 0.625rem;
+  margin-bottom: 1.25rem;
+}
+.settings-advertise img {
+  border: 1px solid white;
+}
+.settings-advertise p {
+  color: #ffffff;
+  font-size: 1.125rem;
+}
+.settings-advertise h3 {
+  color: #ffffff;
+  font-size: 1.625rem;
+  font-family: "Segoe UI Black";
+}
+.settings-advertise span {
+  color: #81bdff;
+}
+.settings-upgrade {
+  background-color: #0262cb;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1.25rem;
+}
+.settings-upgrade h3 {
+  font-size: 1.5rem;
+  color: #ffffff;
+  font-family: "ChunkFive-Regular";
+  margin-bottom: 1.5rem;
+}
+.btn-white {
+  color: #027bfe !important;
+  font-size: 1.25rem;
+}
 /* ================= media query ================ */
+
+@media screen and (max-width: 430px) {
+  .settings-upgrade h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1.2rem;
+  }
+}
 
 @media screen and (max-width: 400px) {
   .booking-content h3 {
@@ -495,6 +544,41 @@ textarea {
   .message-heading h3 {
     font-size: 5vw;
   }
+  .settings-upgrade h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+  }
+  .btn-white {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 380px) {
+  .dark-blue-feature-box h3,
+  .light-blue-feature-box h3 {
+    font-size: 1.1rem;
+  }
+  .dark-blue-feature-box p,
+  .light-blue-feature-box p {
+    font-size: 0.9rem;
+  }
+  .settings-advertise p {
+    font-size: 1rem;
+  }
+  .settings-advertise h3 {
+    font-size: 1.5rem;
+  }
+  .settings-upgrade h3 {
+    font-size: 1rem;
+    margin-bottom: 1.2rem;
+  }
+}
+@media screen and (max-width: 355px) {
+  .settings-advertise p {
+    font-size: 0.8rem;
+  }
+  .settings-advertise h3 {
+    font-size: 1.3rem;
+  }
 }
 @media screen and (max-width: 345px) {
   .booking-content h3 {
@@ -511,15 +595,5 @@ textarea {
   }
   .sub-directory {
     font-size: 1.8rem;
-  }
-}
-@media screen and (max-width: 380px) {
-  .dark-blue-feature-box h3,
-  .light-blue-feature-box h3 {
-    font-size: 1.1rem;
-  }
-  .dark-blue-feature-box p,
-  .light-blue-feature-box p {
-    font-size: 0.9rem;
   }
 }
