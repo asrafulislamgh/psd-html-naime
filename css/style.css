@@ -407,9 +407,14 @@ textarea {
 .content-header h3 {
   font-family: "ChunkFive-Regular";
   font-size: 1.6rem;
+  color: #333333;
 }
 .content-header p {
   font-size: 1.1rem;
+  color: #333333;
+}
+.content-header a {
+  color: #027bfe;
 }
 .check-icon {
   border-radius: 50%;
@@ -481,7 +486,8 @@ textarea {
   top: -9px;
   right: -5px;
 }
-/* ================= Settings-vip ================ */
+/* ================= settings-free ================ */
+.setting-free-header,
 .setting-vip-header {
   margin-bottom: 1.25rem;
   margin-top: 1.25rem;
@@ -522,6 +528,21 @@ textarea {
 .btn-white {
   color: #027bfe !important;
   font-size: 1.25rem;
+}
+.recover-btn {
+  border-radius: 8px;
+  border: 2px solid #027bfe;
+  color: #027bfe;
+  padding: 0.1rem 0.5rem;
+  text-transform: capitalize;
+  margin-top: 1rem;
+}
+.recover-btn i {
+  font-size: 1.5rem;
+}
+.btn-text {
+  margin-left: 5px;
+  font-size: 1.1rem;
 }
 /* ================= media query ================ */
 
@@ -576,6 +597,9 @@ textarea {
     font-size: 1rem;
     margin-bottom: 1.2rem;
   }
+  .sub-directory {
+    font-size: 1.9rem;
+  }
 }
 @media screen and (max-width: 355px) {
   .settings-advertise p {
@@ -599,6 +623,6 @@ textarea {
     font-size: 4vw;
   }
   .sub-directory {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 }

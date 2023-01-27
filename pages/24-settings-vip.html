@@ -27,9 +27,9 @@
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-cus-blue">
       <div class="container">
-        <div class="d-flex">
+        <div class="d-flex align-items-center">
           <a class="navbar-brand" href="#"><img class="p-2" src="../../img/logo.png" alt="195" /></a>
-          <span class="sub-directory">/ profile</span>
+          <span class="sub-directory">/ settings</span>
         </div>
 
 
@@ -67,7 +67,7 @@
         <div class="content-header setting-vip-header">
           <h3>All the app settings</h3>
           <p>You can change your <strong>personal</strong> settings <a href="#"
-              class="text-decoration-underline">here</a></p>
+              class="text-decoration-underline"><strong>here.</strong></a></p>
         </div>
         <div class="settings-advertise d-flex align-items-center">
           <picture>
@@ -76,17 +76,9 @@
           </picture>
           <div class="ms-2">
             <p>Johanna de Boer | 37 years | <i class="bi bi-gender-female"></i></p>
-            <h3><span>ACCOUNT</span> <i class="bi bi-flower1"></i> FREE</h3>
+            <h3><span>ACCOUNT</span> <i class="bi bi-gem"></i> VIP</h3>
           </div>
         </div>
-        <div class="settings-upgrade">
-          <h3>Become a VIP, get more clients!</h3>
-          <div class="d-grid gap-2">
-
-            <a class="btn btn-white" role="button"><i class="bi bi-check-lg"></i> UPGRADE NOW</a>
-          </div>
-        </div>
-
 
         <div class="">
           <div class="row mb-3 gx-3">
@@ -106,8 +98,8 @@
                 <i class="fas fa-check check-icon check-icon-top check-icon-blue"></i>
                 <div class="dashboard-feature-info dashboard-feature-dark-blue">
                   <i class="bi bi-person-bounding-box"></i>
-                  <p>Your personal
-                    preferences</p>
+                  <p>Verify your
+                    identity</p>
                 </div>
               </div>
             </div>
@@ -137,7 +129,6 @@
             <div class="col-4">
               <div class="light-blue-feature-box blue-feature-heading position-relative">
                 <h3>Health</h3>
-                <i class="fas fa-check check-icon check-icon-top check-icon-blue"></i>
                 <div class="dashboard-feature-info dashboard-feature-dark-blue">
                   <i class="bi bi-bandaid"></i>
                   <p>About your
@@ -148,7 +139,6 @@
             <div class="col-4">
               <div class="dark-blue-feature-box blue-feature-heading position-relative">
                 <h3>Recover</h3>
-                <i class="fas fa-check check-icon check-icon-top check-icon-blue"></i>
                 <div class="dashboard-feature-info dashboard-feature-light-blue">
                   <i class="bi bi-shield-fill-check"></i>
                   <p>Recover your
@@ -162,7 +152,13 @@
           <h3>Account recovery</h3>
           <p>Lost your account or credentials?
             No worry, you can recover it.</p>
+          <button type="button" class="btn btn-outline-info recover-btn d-flex align-items-center"
+            data-mdb-ripple-color="dark">
+            <i class="bi bi-shield-check"></i>
+            <span class="btn-text">Recover</span>
+          </button>
         </div>
+
 
       </div>
       </div>
@@ -186,7 +182,7 @@
               <span class="badge rounded-pill badge-notification bg-white">134</span>
               <p>Bookings</p>
             </div>
-            <div class="col active footer-tab text-center">
+            <div class="col footer-tab text-center">
               <i class="far fa-user"></i>
               <p>Profile</p>
             </div>
