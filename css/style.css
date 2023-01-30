@@ -570,6 +570,7 @@ textarea {
 }
 .category-name h3 {
   font-size: 1.25rem;
+  font-family: "Segoe UI Bold";
 }
 .category-name i {
   color: #027bfe;
@@ -591,16 +592,19 @@ textarea {
   width: 25%;
   height: 22px;
 }
-.form-control {
+.items-container .form-control {
   height: 22px;
   border: 1px solid #027bfe !important;
 }
-.form-check label {
+.items-container .form-check label {
   color: #027bfe;
   font-size: 1.125rem;
 }
 .form-check-input[type="checkbox"] {
   border: 1px solid #027bfe;
+}
+.selected-semibold-text {
+  font-family: "Segoe UI semibold";
 }
 /* ================= media query ================ */
 
