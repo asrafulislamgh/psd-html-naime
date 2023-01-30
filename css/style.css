@@ -544,6 +544,64 @@ textarea {
   margin-left: 5px;
   font-size: 1.1rem;
 }
+/* ================= profile-rate ================ */
+.blue-underline {
+  border-bottom: 2px solid #027bfe;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.profile-rate-heading {
+  margin-bottom: 1.1rem;
+  margin-top: 1.25rem;
+}
+.rates-category-heading h3 {
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: #333333;
+}
+.rates-category-heading p {
+  font-size: 1rem;
+  color: #666666;
+}
+.category-name {
+  color: #81bdff;
+  display: flex;
+  font-size: 1.25rem;
+}
+.category-name h3 {
+  font-size: 1.25rem;
+}
+.category-name i {
+  color: #027bfe;
+  margin-right: 0.625rem;
+  font-size: 1.2rem;
+}
+.items-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.item-name-container {
+  margin-left: 1.825rem;
+}
+.item-name-container {
+  width: 64%;
+}
+.input-container {
+  width: 25%;
+  height: 22px;
+}
+.form-control {
+  height: 22px;
+  border: 1px solid #027bfe !important;
+}
+.form-check label {
+  color: #027bfe;
+  font-size: 1.125rem;
+}
+.form-check-input[type="checkbox"] {
+  border: 1px solid #027bfe;
+}
 /* ================= media query ================ */
 
 @media screen and (max-width: 430px) {
