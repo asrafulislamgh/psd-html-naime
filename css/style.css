@@ -394,6 +394,9 @@ textarea {
   color: #ffffff;
   padding: 0.6rem 1rem;
 }
+.chat-box i {
+  font-size: 1.1rem;
+}
 /* ================= profile dashboard ================ */
 .profile-dashboard-wrapper {
   height: calc(100vh - 163px);
