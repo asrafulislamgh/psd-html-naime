@@ -68,24 +68,20 @@ h3 {
   font-size: 1.5rem;
 }
 
-.starter-btn {
-  background-color: white;
-  color: #333333;
-}
-
-.starter-btn img {
-  height: 23px;
-  width: auto;
-  margin-top: 3px;
-}
-
+.starter-btn,
 .reputation-btn {
   background-color: white;
   color: #333333;
 }
+
 .reputation-btn img {
   height: 23px;
   width: auto;
+}
+.reputation-btn i,
+.starter-btn i {
+  font-size: 1.5rem;
+  padding-top: 3px;
 }
 .vip-btn,
 .starter-btn,
@@ -94,10 +90,15 @@ h3 {
   width: 30%;
 }
 .vip-btn h3,
-.starter-btn h3,
 .reputation-btn h3 {
   font-size: 1.625rem;
   font-family: "Segoe UI Bold";
+  margin-left: 0.5rem;
+}
+.starter-btn h3 {
+  font-size: 1.625rem;
+  font-family: "Segoe UI Regular";
+  margin-left: 0.5rem;
 }
 .profile-section img {
   height: 100%;
@@ -616,6 +617,11 @@ textarea {
 }
 
 @media screen and (max-width: 400px) {
+  .starter-btn h3,
+  .vip-btn h3,
+  .reputation-btn h3 {
+    margin-left: 3px !important;
+  }
   .booking-content h3 {
     font-size: 4vw;
   }
@@ -641,6 +647,11 @@ textarea {
   }
 }
 @media screen and (max-width: 380px) {
+  .starter-btn h3,
+  .vip-btn h3,
+  .reputation-btn h3 {
+    font-size: 1.5rem;
+  }
   .dark-blue-feature-box h3,
   .light-blue-feature-box h3 {
     font-size: 1.1rem;
