@@ -596,6 +596,14 @@ textarea {
 .items-container .form-control {
   height: 22px;
   border: 1px solid #027bfe !important;
+  color: #027bfe;
+  text-align: right;
+  background-color: #81bdff;
+  border-radius: 0;
+}
+.items-container .form-control:focus {
+  background-color: #ffffff;
+  border-radius: 0;
 }
 .items-container .form-check label {
   color: #027bfe;
@@ -607,6 +615,9 @@ textarea {
 .selected-semibold-text {
   font-family: "Segoe UI semibold";
 }
+/* .items-container input:not([value=""]) {
+  background-color: #81bdff;
+} */
 /* ================= media query ================ */
 
 @media screen and (max-width: 430px) {
