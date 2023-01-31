@@ -60,7 +60,65 @@ h3 {
   font-size: 2.25rem;
 }
 
-.vip-btn {
+.home-vip-btn {
+  background-color: #81bdff;
+  color: white;
+}
+.home-vip-btn i {
+  font-size: 1.5rem;
+}
+
+.home-starter-btn,
+.home-reputation-btn,
+.home-folder-btn,
+.starter-btn,
+.reputation-btn {
+  background-color: white;
+  color: #333333;
+}
+
+.home-folder-btn img,
+.reputation-btn img {
+  height: 23px;
+  width: auto;
+}
+.home-starter-btn i,
+.home-reputation-btn i,
+.reputation-btn i,
+.starter-btn i {
+  font-size: 1.5rem;
+  padding-top: 3px;
+}
+
+.vip-btn,
+.starter-btn,
+.reputation-btn {
+  height: 40px;
+  width: 30%;
+}
+.home-starter-btn,
+.home-folder-btn,
+.home-reputation-btn,
+.home-vip-btn {
+  height: 40px;
+  /* padding: 0 1.75rem; */
+  max-width: 125px;
+}
+.home-starter-btn h3 {
+  font-size: 1.625rem;
+  font-family: "Segoe UI regular";
+  margin-left: 0.5rem;
+}
+.home-folder-btn h3,
+.home-reputation-btn h3,
+.home-vip-btn h3,
+.vip-btn h3,
+.reputation-btn h3 {
+  font-size: 1.625rem;
+  font-family: "Segoe UI Bold";
+  margin-left: 0.5rem;
+}
+/* .vip-btn {
   background-color: #81bdff;
   color: white;
 }
@@ -94,7 +152,7 @@ h3 {
   font-size: 1.625rem;
   font-family: "Segoe UI Bold";
   margin-left: 0.5rem;
-}
+} */
 .starter-btn h3 {
   font-size: 1.625rem;
   font-family: "Segoe UI Regular";
@@ -188,16 +246,26 @@ h3 {
   margin: -0.5rem -7px;
 }
 .booking-wrapper {
-  height: 40vh;
-  overflow-x: auto;
+  height: calc(100vh - 620px);
+  padding-bottom: 20px;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
-.booking-wrapper .col {
+.booking-wrapper .col,
+.home-wrapper .col {
   padding: 0 6px;
 }
 
-.booking-wrapper img {
+.booking-wrapper img,
+.home-wrapper img {
   border-radius: 50%;
   width: 75px;
+}
+.home-wrapper {
+  height: calc(100vh - 160px);
+  padding-bottom: 20px;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 /* section scrollbar */

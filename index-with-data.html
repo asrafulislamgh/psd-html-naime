@@ -26,7 +26,6 @@
 
 <body style="max-width: 450px; margin: 0 auto">
   <!-- Start your project here-->
-
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-cus-blue">
       <div class="container">
@@ -37,6 +36,8 @@
             id="navbarDropdownMenuAvatar" role="button" data-mdb-toggle="" aria-expanded="false">
             <img src="img/profile.png" class="profile-icon-sm mx-2" height="36" loading="lazy" />
           </a>
+
+          <!-- Dropdown menu  -->
           <div class="dropdown">
             <button class="btn shadow-none px-2" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown"
               aria-expanded="false">
@@ -58,34 +59,49 @@
     </nav>
 
     <!-- header top section  -->
-    <section class="bg-cus-blue top-profile-bg">
+
+    <section class="bg-cus-blue top-profile-bg ">
       <div class="container">
-        <div class="d-flex justify-content-between py-3">
-          <div class="d-flex align-items-center justify-content-center vip-btn rounded-3 display-6">
-            <i class="far fa-gem"></i>
-            <h3>VIP</h3>
+        <div class="row py-3">
+          <div class="col-4">
+            <a href="#">
+              <div class="d-flex align-items-center justify-content-center home-vip-btn rounded-3 display-6">
+                <i class="far fa-gem"></i>
+                <h3>VIP</h3>
+              </div>
+            </a>
           </div>
-          <div class="d-flex align-items-center justify-content-center reputation-btn rounded-3 display-6">
-            <!-- <img src="img/tick.png" alt="" /> -->
-            <i class="bi bi-patch-check"></i>
-            <h3>50</h3>
+          <div class="col-4">
+            <a href="#">
+              <div class="d-flex align-items-center justify-content-center home-reputation-btn rounded-3 display-6">
+                <i class="bi bi-patch-check"></i>
+                <h3>50</h3>
+              </div>
+            </a>
           </div>
-          <div class="d-flex align-items-center justify-content-center reputation-btn rounded-3 display-6">
-            <!-- <i class="far fa-folder-open"></i> -->
-            <img src="img/folder.png" class="img-fluid" alt="" />
-            <h3>947</h3>
+          <div class="col-4">
+            <a href="#">
+              <div class="d-flex align-items-center justify-content-center home-folder-btn rounded-3 display-6">
+                <img src="img/folder.png" class="img-fluid" alt="" />
+                <h3>947</h3>
+              </div>
+            </a>
           </div>
         </div>
       </div>
       <!-- profile details  -->
       <section class="container d-flex align-items-center pt-2 pb-5 profile-section">
-        <img src="img/profile-lg.png" class="img-fluid" alt="" />
+        <a href="#">
+          <img src="img/profile-lg.png" class="img-fluid" alt="" />
+        </a>
         <div class="ps-4 profile-content">
           <h1 class="title">Samantha</h1>
           <p><i class="fas fa-heart"></i> 593 People like you</p>
-          <button class="btn btn-white mt-1 px-3">
-            <i class="far fa-envelope"></i> Send a message to all your fans
-          </button>
+          <a href="#">
+            <button class="btn btn-white mt-1 px-3">
+              <i class="far fa-envelope"></i> Send a message to all your fans
+            </button>
+          </a>
         </div>
       </section>
     </section>
@@ -101,6 +117,7 @@
     </div>
 
     <h3 class="semi-title">Upcoming Bookings</h3>
+
     <div>
       <div class="container booking-wrapper">
         <a href="#">
@@ -223,7 +240,8 @@
       </div>
     </div>
   </main>
-  <footer class="bg-cus-blue fixed-bottom">
+  </div>
+  <footer class="bg-cus-blue fixed-bottom" style="margin: 0 auto; max-width: 450px;">
     <div class="container">
       <div class="container">
         <div class="row">
