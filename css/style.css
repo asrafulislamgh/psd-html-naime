@@ -129,11 +129,13 @@ h3 {
 .booking-content p {
   /* font-size: 4vw; */
   font-size: 1rem;
+  color: #333333;
 }
 .booking-content .row > p {
   /* font-size: 4vw; */
   font-size: 1rem;
   padding: 0 0.375rem;
+  color: #666666;
 }
 .footer-tab {
   /* color: rgba(255, 255, 255, 0.5); */
@@ -228,6 +230,9 @@ h3 {
   padding: 0;
   margin-left: -10px;
 }
+.chat-overview-section i {
+  color: #e10000;
+}
 .booking-wrapper-chat-overview {
   height: calc(100vh - 200px);
   padding-bottom: 20px;
@@ -238,6 +243,10 @@ h3 {
 }
 .time-chat h4 {
   font-size: 1rem;
+  color: #333333;
+}
+.chat-overview-heading {
+  font-family: "Segoe UI Bold";
 }
 .time-chat p {
   font-size: 1rem;
@@ -304,6 +313,9 @@ textarea {
 /* ================= Single chat ================ */
 .user {
   font-family: "ChunkFive-Regular";
+}
+.sub-description {
+  color: #666666;
 }
 .time-single p {
   font-size: 1rem;
@@ -415,6 +427,10 @@ textarea {
   margin-bottom: 2.8rem;
   margin-top: 1.25rem;
 }
+.dashboard-header span {
+  color: #666666;
+  font-family: "Segoe UI regular";
+}
 .content-header h3 {
   font-family: "ChunkFive-Regular";
   font-size: 1.6rem;
@@ -422,7 +438,8 @@ textarea {
 }
 .content-header p {
   font-size: 1.1rem;
-  color: #333333;
+  color: #666666;
+  font-family: "Segoe UI semibold";
 }
 .content-header a {
   color: #027bfe;
@@ -564,6 +581,14 @@ textarea {
 .profile-rate-heading {
   margin-bottom: 1.1rem;
   margin-top: 1.25rem;
+}
+.profile-rate-heading p {
+  color: #333333;
+  font-family: "Segoe UI semibold";
+}
+.profile-rate-heading span {
+  color: #666666;
+  font-family: "Segoe UI regular";
 }
 .rates-category-heading h3 {
   font-size: 1.125rem;
