@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>My profile</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+
+  <!-- Bootstrap Font Icon CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <!-- MDB -->
+  <link rel="stylesheet" href="css/mdb.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="fonts/segoe/style.css" />
+</head>
+
+<body style="max-width: 450px; margin: 0 auto">
+  <!-- Start your project here-->
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-cus-blue">
+      <div class="container">
+        <div class="d-flex align-items-center">
+          <a class="navbar-brand" href="#"><img class="p-2" src="img/logo.png" alt="195" /></a>
+          <span class="sub-directory">/ settings</span>
+        </div>
+
+
+        <div class="d-flex">
+          <a class="dropdown-toggle d-flex align-items-center hidden-arrow" href="#" id="navbarDropdownMenuAvatar"
+            role="button" data-mdb-toggle="" aria-expanded="false">
+            <img src="img/profile.png" class="profile-icon-sm mx-2" height="36" loading="lazy" />
+          </a>
+
+          <!-- Dropdown menu  -->
+          <div class="dropdown">
+            <button class="btn shadow-none px-2" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown"
+              aria-expanded="false">
+              <i class="fas fa-ellipsis-v text-white"></i>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li><a class="dropdown-item" href="#">Settings</a></li>
+              <li><a class="dropdown-item" href="#">Subscription</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Transactions</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Call History</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+    <main class="container">
+
+      <div class="profile-dashboard-wrapper d-flex flex-column position-relative">
+        <div class="content-header setting-free-header">
+          <h3>All the app settings</h3>
+          <p>You can change your <strong>personal</strong> settings <a href="#"
+              class="text-decoration-underline"><strong>here.</strong></a></p>
+        </div>
+        <div class="settings-advertise d-flex align-items-center">
+          <picture>
+            <source media="(min-width:380px)" srcset="img/person-9_2x.png" />
+            <img src="img/person-9.png" />
+          </picture>
+          <div class="ms-2">
+            <p>Johanna de Boer | 37 years | <i class="bi bi-gender-female"></i></p>
+            <h3><span>ACCOUNT</span> <i class="bi bi-flower1"></i> FREE</h3>
+          </div>
+        </div>
+        <div class="settings-upgrade">
+          <h3>Become a VIP, get more clients!</h3>
+          <div class="d-grid gap-2">
+
+            <a class="btn btn-white" role="button"><i class="bi bi-check-lg"></i> UPGRADE NOW</a>
+          </div>
+        </div>
+
+
+        <div class="">
+          <div class="row mb-3 gx-3">
+            <div class="col-4">
+              <div class="dark-blue-feature-box blue-feature-heading">
+                <h3>General</h3>
+                <div class="dashboard-feature-info dashboard-feature-light-blue">
+                  <i class="bi bi-gear-fill"></i>
+                  <p>Most common
+                    settings</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="light-blue-feature-box blue-feature-heading position-relative">
+                <h3>ID check</h3>
+                <i class="fas fa-check check-icon check-icon-top check-icon-blue"></i>
+                <div class="dashboard-feature-info dashboard-feature-dark-blue">
+                  <i class="bi bi-person-bounding-box"></i>
+                  <p>Verify your
+                    identity</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="dark-blue-feature-box blue-feature-heading">
+                <h3>Prefs</h3>
+                <div class="dashboard-feature-info dashboard-feature-light-blue">
+                  <i class="bi bi-person-heart"></i>
+                  <p>Your personal
+                    preferences</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row gx-3">
+            <div class=" col-4">
+              <div class="dark-blue-feature-box blue-feature-heading">
+                <h3>Booking</h3>
+                <div class="dashboard-feature-info dashboard-feature-light-blue">
+                  <i class="bi bi-list-check"></i>
+                  <p>Rules for your
+                    bookings</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="light-blue-feature-box blue-feature-heading position-relative">
+                <h3>Health</h3>
+                <div class="dashboard-feature-info dashboard-feature-dark-blue">
+                  <i class="bi bi-bandaid"></i>
+                  <p>About your
+                    body</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="dark-blue-feature-box blue-feature-heading position-relative">
+                <h3>Recover</h3>
+                <div class="dashboard-feature-info dashboard-feature-light-blue">
+                  <i class="bi bi-shield-fill-check"></i>
+                  <p>Recover your
+                    account</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content-header setting-free-header">
+          <h3>Account recovery</h3>
+          <p>Lost your account or credentials?
+            No worry, you can recover it.</p>
+          <button type="button" class="btn btn-outline-info recover-btn d-flex align-items-center"
+            data-mdb-ripple-color="dark">
+            <i class="bi bi-shield-check"></i>
+            <span class="btn-text">Recover</span>
+          </button>
+        </div>
+
+
+      </div>
+      </div>
+
+    </main>
+    <footer class="bg-cus-blue fixed-bottom" style="margin: 0 auto; max-width: 450px;">
+      <div class="container">
+        <div class="container">
+          <div class="row">
+            <div class="col footer-tab text-center">
+              <i class="fas fa-home"></i>
+              <p>Home</p>
+            </div>
+            <div class="col footer-tab text-center">
+              <i class="far fa-comment-dots"></i>
+              <span class="badge rounded-pill badge-notification bg-white">9</span>
+              <p>Chat</p>
+            </div>
+            <div class="col footer-tab text-center">
+              <i class="far fa-bookmark"></i>
+              <span class="badge rounded-pill badge-notification bg-white">134</span>
+              <p>Bookings</p>
+            </div>
+            <div class="col footer-tab text-center">
+              <i class="far fa-user"></i>
+              <p>Profile</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+</body>
+
+</html>

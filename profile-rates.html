@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>My profile</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+
+  <!-- Bootstrap Font Icon CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <!-- MDB -->
+  <link rel="stylesheet" href="css/mdb.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="fonts/segoe/style.css" />
+</head>
+
+<body style="max-width: 450px; margin: 0 auto">
+  <!-- Start your project here-->
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-cus-blue">
+      <div class="container">
+        <div class="d-flex align-items-center">
+          <a class="navbar-brand" href="#"><img class="p-2" src="img/logo.png" alt="195" /></a>
+          <span class="sub-directory">/ profile</span>
+        </div>
+
+
+        <div class="d-flex">
+          <a class="d-flex align-items-center " href="#" role="button" data-mdb-toggle="" aria-expanded="false">
+            <img src="img/profile.png" class="profile-icon-sm mx-2" height="36" loading="lazy" />
+          </a>
+
+          <!-- Dropdown menu  -->
+          <div class="dropdown">
+            <button class="btn shadow-none px-2" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown"
+              aria-expanded="false">
+              <i class="fas fa-ellipsis-v text-white"></i>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li><a class="dropdown-item" href="#">Settings</a></li>
+              <li><a class="dropdown-item" href="#">Subscription</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Transactions</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Call History</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+    <main class="container">
+
+      <div class="profile-dashboard-wrapper d-flex flex-column position-relative">
+        <div class="content-header profile-rate-heading">
+          <h3>Rates</h3>
+          <p>Define the standard rates for each time block.
+            If you don’t do a certain time block, don’t select it.</p>
+        </div>
+        <div class="blue-underline"></div>
+        <div class="row mb-1 gx-1">
+          <div class="col-9">
+            <div class="rates-category-heading">
+              <h3>Category</h3>
+              <p>Check applicable (sub-)categories</p>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="rates-category-heading">
+              <h3>Price</h3>
+              <p>Set your price</p>
+            </div>
+          </div>
+        </div>
+        <div class="mb-3 mt-2">
+          <div class="category-name">
+            <i class="bi bi-house-fill"></i>
+            <h3>INCALL</h3>
+          </div>
+          <div class="items-container">
+            <div class="form-check item-name-container">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" />
+              <label class="form-check-label" for="flexCheckChecked">Quickie</label>
+            </div>
+            <div class="form-outline input-container">
+              <input type="number" id="typeNumber" class="form-control rate-input-filed" />
+            </div>
+          </div>
+          <div class="items-container">
+            <div class="form-check item-name-container">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked2" checked />
+              <label class="form-check-label selected-semibold-text" for="flexCheckChecked2">1 hour</label>
+            </div>
+            <div class="form-outline input-container">
+              <input type="number" id="typeNumber" class="form-control rate-input-filed" />
+            </div>
+          </div>
+          <div class="items-container">
+            <div class="form-check item-name-container">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked3" />
+              <label class="form-check-label" for="flexCheckChecked3">2 hour</label>
+            </div>
+            <div class="form-outline input-container">
+              <input type="number" id="typeNumber" class="form-control rate-input-filed" />
+            </div>
+          </div>
+          <div class="items-container">
+            <div class="form-check item-name-container">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked4" />
+              <label class="form-check-label" for="flexCheckChecked4">Aditional hour</label>
+            </div>
+            <div class="form-outline input-container">
+              <input type="number" id="typeNumber" class="form-control rate-input-filed" />
+            </div>
+          </div>
+          <div class="items-container">
+            <div class="form-check item-name-container">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked5" checked />
+              <label class="form-check-label selected-semibold-text" for="flexCheckChecked5">Day (24 hours)</label>
+            </div>
+            <div class="form-outline input-container">
+              <input type="number" id="typeNumber" class="form-control rate-input-filed" />
+            </div>
+          </div>
+          <div class="items-container">
+            <div class="form-check item-name-container">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked6" checked />
+              <label class="form-check-label selected-semibold-text" for="flexCheckChecked6">Overnight (12
+                hours)</label>
+            </div>
+            <div class="form-outline input-container">
+              <input type="number" id="typeNumber" class="form-control rate-input-filed" />
+            </div>
+          </div>
+          <div class="items-container">
+            <div class="form-check item-name-container">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked7" />
+              <label class="form-check-label" for="flexCheckChecked7">Weekend (48 hours)</label>
+            </div>
+            <div class="form-outline input-container">
+              <input type="number" id="typeNumber" class="form-control rate-input-filed" />
+            </div>
+          </div>
+        </div>
+        <div class="mb-3">
+          <div class="category-name">
+            <i class="bi bi-signpost-split-fill"></i>
+            <h3>ESCORT</h3>
+          </div>
+          <div class="items-container">
+            <div class="form-check item-name-container">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked8" checked />
+              <label class="form-check-label selected-semibold-text" for="flexCheckChecked8">Quickie</label>
+            </div>
+            <div class="form-outline input-container">
+              <input type="number" id="typeNumber" class="form-control rate-input-filed" />
+            </div>
+          </div>
+          <div class="items-container">
+            <div class="form-check item-name-container">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked9" checked />
+              <label class="form-check-label selected-semibold-text" for="flexCheckChecked9">1 hour</label>
+            </div>
+            <div class="form-outline input-container">
+              <input type="number" id="typeNumber" class="form-control rate-input-filed" />
+            </div>
+          </div>
+          <div class="items-container">
+            <div class="form-check item-name-container">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked10" checked />
+              <label class="form-check-label selected-semibold-text" for="flexCheckChecked10">2 hour</label>
+            </div>
+            <div class="form-outline input-container">
+              <input type="number" id="typeNumber" class="form-control rate-input-filed" />
+            </div>
+          </div>
+          <div class="items-container">
+            <div class="form-check item-name-container">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked11" />
+              <label class="form-check-label" for="flexCheckChecked11">Aditional hour</label>
+            </div>
+            <div class="form-outline input-container">
+              <input type="number" value="" id="typeNumber" class="form-control rate-input-filed" />
+            </div>
+          </div>
+          <div class="items-container">
+            <div class="form-check item-name-container">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked12" />
+              <label class="form-check-label" for="flexCheckChecked12">Day (24 hours)</label>
+            </div>
+            <div class="form-outline input-container">
+              <input type="number" id="typeNumber" class="form-control rate-input-filed" />
+            </div>
+          </div>
+          <div class="items-container">
+            <div class="form-check item-name-container">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked13" checked />
+              <label class="form-check-label selected-semibold-text" for="flexCheckChecked13">Overnight (12
+                hours)</label>
+            </div>
+            <div class="form-outline input-container">
+              <input type="number" id="typeNumber" class="form-control rate-input-filed" />
+            </div>
+          </div>
+          <div class="items-container">
+            <div class="form-check item-name-container">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked14" />
+              <label class="form-check-label" for="flexCheckChecked14">Weekend (48 hours)</label>
+            </div>
+            <div class="form-outline input-container">
+              <input type="number" id="typeNumber" class="form-control rate-input-filed" />
+            </div>
+          </div>
+        </div>
+        <div class="d-flex">
+          <button type="button" class="btn btn-primary bg-cus-blue mt-4 mb-5 ms-auto"><i
+              class="fas fa-check me-2"></i>Save</button>
+        </div>
+
+      </div>
+      </div>
+
+    </main>
+    <footer class="bg-cus-blue fixed-bottom" style="margin: 0 auto; max-width: 450px;">
+      <div class="container">
+        <div class="container">
+          <div class="row">
+            <div class="col footer-tab text-center">
+              <i class="fas fa-home"></i>
+              <p>Home</p>
+            </div>
+            <div class="col footer-tab text-center">
+              <i class="far fa-comment-dots"></i>
+              <span class="badge rounded-pill badge-notification bg-white">9</span>
+              <p>Chat</p>
+            </div>
+            <div class="col footer-tab text-center">
+              <i class="far fa-bookmark"></i>
+              <span class="badge rounded-pill badge-notification bg-white">134</span>
+              <p>Bookings</p>
+            </div>
+            <div class="col active footer-tab text-center">
+              <i class="far fa-user"></i>
+              <p>Profile</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+</body>
+
+</html>
