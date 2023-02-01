@@ -784,6 +784,30 @@ textarea {
   font-size: 1.5rem;
   color: #333333;
 }
+.booking-services h3 {
+  font-size: 1.125rem;
+  font-family: "Segoe UI Bold";
+  color: #333333;
+}
+.booking-services h4 {
+  font-size: 1.125rem;
+  font-family: "Segoe UI semibold";
+  color: #333333;
+  line-height: initial;
+}
+.booking-service-costing {
+  margin-top: 30px;
+}
+.booking-service-costing i {
+  color: #11a955;
+}
+.booking-reputation img {
+  margin-top: 30px;
+  width: 90%;
+}
+.remarks p {
+  color: #333333;
+}
 /* ================= media query ================ */
 
 @media screen and (max-width: 430px) {
