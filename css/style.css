@@ -808,6 +808,47 @@ textarea {
 .remarks p {
   color: #333333;
 }
+/* ================= profile avater ================ */
+.profile-avater-wrapper {
+  height: calc(100vh - 163px);
+  padding-bottom: 20px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.profile-avater-wrapper img {
+  width: 50%;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+.profile-upload-avater-btn {
+  height: 47px;
+  padding: 5px 12px;
+  color: #ffffff;
+  font-family: "Segoe UI semibold";
+  margin-top: 30px;
+}
+.booking-avater-edit-btn {
+  height: 47px;
+  padding: 5px 12px;
+  color: #027bfe;
+  font-family: "Segoe UI semibold";
+  margin-top: 30px;
+  text-transform: inherit !important;
+}
+.booking-avater-edit-btn i,
+.profile-upload-avater-btn i {
+  font-size: 1.25rem;
+  margin-right: 5px;
+}
+.booking-avater-edit-btn h3,
+.profile-upload-avater-btn h3 {
+  font-size: 1.25rem;
+}
+.profile-avater-name h4 {
+  font-size: 1.125rem;
+  color: #333333;
+  font-family: "Segoe UI bold";
+}
 /* ================= media query ================ */
 
 @media screen and (max-width: 430px) {
