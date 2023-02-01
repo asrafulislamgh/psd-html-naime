@@ -178,6 +178,7 @@ h3 {
   font-size: 1rem;
   text-transform: capitalize;
 }
+.booking-action h3,
 .booking-content h3 {
   /* font-size: 4vw; */
   font-size: 1.1rem;
@@ -719,9 +720,29 @@ textarea {
 .selected-semibold-text {
   font-family: "Segoe UI semibold";
 }
-/* .items-container input:not([value=""]) {
-  background-color: #81bdff;
-} */
+/* ================= booking actions ================ */
+.booking-action h3 i {
+  color: #e10000;
+}
+.booking-age h2 {
+  color: #333333;
+  font-size: 1rem;
+}
+.booking-age h3 {
+  font-size: 1.125rem;
+  color: #027bfe;
+  font-family: "Segoe UI Bold";
+  padding-top: 10px;
+}
+.booking-date h4 {
+  font-size: 1.125rem;
+  font-family: "Segoe UI semibold";
+  color: #333333;
+}
+.booking-date p {
+  font-size: 1.125rem;
+  color: #666666;
+}
 /* ================= media query ================ */
 
 @media screen and (max-width: 430px) {
@@ -787,6 +808,15 @@ textarea {
   }
   .sub-directory {
     font-size: 1.9rem;
+  }
+  .booking-date h4 {
+    font-size: 1rem;
+  }
+  .booking-date p {
+    font-size: 1rem;
+  }
+  .booking-action-container .semi-title {
+    font-size: 1.3rem;
   }
 }
 @media screen and (max-width: 355px) {
