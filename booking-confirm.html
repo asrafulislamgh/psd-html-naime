@@ -60,10 +60,10 @@
     </nav>
 
 
-    <main class="container booking-action-container">
-      <h3 class="semi-title">Status : 2 booking(s) waiting</h3>
+    <main class="container booking-action-container booking-wrapper booking-wrapper-chat-overview">
+      <h3 class="semi-title">Status : reject, edit or accept</h3>
       <div>
-        <div class="booking-wrapper booking-wrapper-chat-overview">
+        <div class="">
           <div class="row mt-3 ">
             <a href="chat-single.html" class="d-flex align-items-center">
               <div class="col-3">
@@ -89,56 +89,101 @@
               </div>
             </a>
           </div>
-
-          <div class="booking-date d-flex justify-content-between mt-3">
-            <div>
-              <h4>Wednesday, 17th August 2022</h4>
-              <p>2:15 AM (3 hours)</p>
+          <div class="row mt-4 gx-2">
+            <div class="col-4">
+              <a href="#">
+                <button
+                  class="booking-reject-btn btn btn-outline-primary d-flex align-items-center justify-content-center  booking-btn rounded-3">
+                  <i class="bi bi-x-lg"></i>
+                  <h3>REJECT</h3>
+                </button>
+              </a>
             </div>
-            <a href="#">
-              <button type="button" class="btn btn-primary rounded-3 text-white mt-2 px-3">
-                <i class="far fa-eye pe-1"></i> Details
-              </button>
-            </a>
+            <div class="col-4">
+              <a href="#">
+                <button
+                  class="booking-edit-btn btn btn-primary d-flex align-items-center justify-content-center booking-btn rounded-3">
+                  <i class="bi bi-pencil"></i>
+                  <h3>Edit</h3>
+                </button>
+              </a>
+            </div>
+            <div class="col-4">
+              <a href="#">
+                <button
+                  class="booking-accept-btn btn btn-primary d-flex align-items-center justify-content-center booking-btn rounded-3">
+                  <i class="fas fa-check"></i>
+                  <h3>Accept</h3>
+                </button>
+              </a>
+            </div>
           </div>
+
           <div class="blue-underline my-4"></div>
 
-          <div class="row mt-3 ">
-            <a href="chat-single.html" class="d-flex align-items-center">
-              <div class="col-3">
-                <picture>
-                  <source media="(min-width:380px)" srcset="img/person-3_2x.png" />
-                  <img src="img/person-3.png" />
-                </picture>
-              </div>
-              <div class="col-9">
-                <div class="container booking-action">
-                  <div class="row">
-                    <div class="col">
-                      <h3 class="d-inline-block text-truncate chat-overview-heading" style="max-width: 40vw">John Silver
-                      </h3>
 
-                    </div>
-                    <div class="col text-end booking-age">
-                      <h2><i class="bi bi-gender-male"></i>/ 23 age</h2>
-                      <h3>INCALL</h3>
-                    </div>
+          <div>
+            <div class="booking-schedule d-flex">
+              <i class="bi bi-calendar-check-fill me-3"></i>
+              <div class="booking-date d-flex justify-content-between">
+                <div>
+                  <h4>Wednesday, 17th August 2022</h4>
+                  <p>2:15 AM (3 hours)</p>
+                </div>
+              </div>
+            </div>
+            <div class="booking-schedule d-flex mt-3">
+              <i class="bi bi-geo-alt-fill me-3"></i>
+              <div class="booking-date d-flex justify-content-between">
+                <div>
+                  <h4>Van der Valk Hotel</h4>
+                  <p>Joan Muyskenweg 20 <br>
+                    1096 CJ Amsterdam (NL) <br>
+                    Room 815</p>
+                </div>
+              </div>
+            </div>
+            <div class="booking-schedule d-flex mt-3">
+              <i class="bi bi-bicycle me-3"></i>
+              <div class="booking-date d-flex justify-content-between">
+                <div>
+                  <h4>8 km from your location</h4>
+                  <p>Estimated driving time 0:15</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="blue-underline my-4"></div>
+        </div>
+        <div>
+          <div class="row">
+            <div class="col-6 booking-services">
+              <h2>Services</h2>
+              <div>
+                <div class="row">
+                  <div class="col-6">
+                    <h4>Escort</h4>
+                    <p>(2 hours)</p>
+                  </div>
+                  <div class="col-6">
+                    <p>€ 250,-</p>
                   </div>
                 </div>
               </div>
-            </a>
-          </div>
 
-          <div class="booking-date d-flex justify-content-between mt-3">
-            <div>
-              <h4>Sunday, 21st November 2022</h4>
-              <p>3:45 PM (30 minutes)</p>
             </div>
-            <a href="#">
-              <button type="button" class="btn btn-primary rounded-3 text-white mt-2 px-3">
-                <i class="far fa-eye pe-1"></i> Details
-              </button>
-            </a>
+            <div class="col-6 booking-reputation">
+              <h2>Reputation</h2>
+              <div>
+                <a href="#">
+                  <picture>
+                    <source media="(min-width:380px)" srcset="img/83-2x.png" />
+                    <img src="img/83.png" />
+                  </picture>
+                </a>
+              </div>
+
+            </div>
           </div>
         </div>
       </div>

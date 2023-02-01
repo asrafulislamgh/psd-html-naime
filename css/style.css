@@ -743,6 +743,47 @@ textarea {
   font-size: 1.125rem;
   color: #666666;
 }
+/* ================= booking confirm ================ */
+.booking-btn {
+  height: 47px;
+  width: 100%;
+  padding: 5px;
+}
+
+.booking-btn i {
+  font-size: 1.25rem;
+  margin-right: 5px;
+}
+.booking-btn h3 {
+  font-size: 1.25rem;
+}
+.booking-edit-btn,
+.booking-accept-btn {
+  color: white;
+}
+.booking-reject-btn h3,
+.booking-edit-btn h3 {
+  font-family: "Segoe UI semibold";
+}
+.booking-accept-btn h3 {
+  font-family: "Segoe UI bold";
+}
+.booking-edit-btn {
+  background-color: #027bfe;
+}
+.booking-accept-btn {
+  background-color: #0262cb !important;
+}
+.booking-schedule i {
+  color: #027bfe;
+  font-size: 1.25rem;
+}
+.booking-services h2,
+.booking-reputation h2 {
+  font-family: "ChunkFive-Regular";
+  font-size: 1.5rem;
+  color: #333333;
+}
 /* ================= media query ================ */
 
 @media screen and (max-width: 430px) {
@@ -817,6 +858,12 @@ textarea {
   }
   .booking-action-container .semi-title {
     font-size: 1.3rem;
+  }
+  .booking-btn i {
+    font-size: 1.1rem;
+  }
+  .booking-btn h3 {
+    font-size: 1.1rem;
   }
 }
 @media screen and (max-width: 355px) {
