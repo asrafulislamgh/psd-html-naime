@@ -849,12 +849,68 @@ textarea {
   color: #333333;
   font-family: "Segoe UI bold";
 }
+/* ================= profile transaction ================ */
+.profile-transaction-wrapper {
+  height: calc(100vh - 160px);
+  padding-bottom: 20px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.profile-transaction-container h4 {
+  font-size: 1.125rem;
+  color: #333333;
+  font-family: "Segoe UI semibold";
+}
+.profile-transaction-container h4 span {
+  font-size: 1.125rem;
+  color: #0262cb;
+  font-family: "Segoe UI bold";
+}
+.profile-transaction-container .booking-avater-edit-btn,
+.profile-upload-avater-btn {
+  height: 40px;
+  font-size: 1rem;
+  margin-top: 0;
+  text-transform: initial;
+}
+.profile-transaction-container .booking-avater-edit-btn h3,
+.profile-upload-avater-btn h3 {
+  font-size: 1.125rem;
+}
+.semi-title2 {
+  font-size: 1.4rem;
+}
+.profile-transaction-container table td,
+.profile-transaction-container table th {
+  padding: 0.5rem 0;
+  font-size: 1rem;
+}
+table .t-date {
+  color: #333333;
+  font-family: "Segoe UI regular";
+}
+table .t-from {
+  color: #0262cb;
+  font-family: "Segoe UI semibold";
+  text-decoration: underline;
+}
+table .t-from a {
+  padding-left: 5px;
+}
+table .t-amount {
+  color: #333333;
+  font-family: "Segoe UI bold";
+  text-align: right;
+}
 /* ================= media query ================ */
 
 @media screen and (max-width: 430px) {
   .settings-upgrade h3 {
     font-size: 1.3rem;
     margin-bottom: 1.2rem;
+  }
+  .profile-transaction .sub-directory {
+    font-size: 1.8rem;
   }
 }
 
@@ -886,6 +942,9 @@ textarea {
   }
   .btn-white {
     font-size: 1.1rem;
+  }
+  .profile-transaction .sub-directory {
+    font-size: 1.6rem;
   }
 }
 @media screen and (max-width: 380px) {
@@ -929,6 +988,9 @@ textarea {
   }
   .booking-btn h3 {
     font-size: 1.1rem;
+  }
+  .profile-transaction .sub-directory {
+    font-size: 1.2rem;
   }
 }
 @media screen and (max-width: 355px) {
