@@ -902,6 +902,71 @@ table .t-amount {
   font-family: "Segoe UI bold";
   text-align: right;
 }
+/* ================= profile repuation ================ */
+
+.profile-reputation-container button {
+  font-family: "Segoe UI Black";
+  font-size: 1.5rem;
+  padding: 0px 1.6rem;
+}
+.profile-repuation-content h4 {
+  font-size: 1.125rem;
+  font-family: "Segoe UI semibold";
+  color: #333333;
+}
+.profile-repuation-content span {
+  font-size: 1.125rem;
+  font-family: "Segoe UI bold";
+  color: #0262cb;
+}
+.profile-repuation-content p {
+  font-size: 1rem;
+  font-family: "Segoe UI regular";
+  color: #666666;
+}
+.profile-reputation-card {
+  background-color: #027bfe;
+  color: #fff;
+  border-radius: 7px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.reputation-card-heading {
+  font-family: "ChunkFive-Regular";
+  font-size: 1.5rem;
+  padding: 20px;
+  background-color: #0262cb;
+}
+.reputation-card-text {
+  font-size: 1.125rem;
+  font-family: "Segoe UI semibold";
+  padding: 20px 20px;
+}
+.reputation-pricing {
+  font-size: 1.625rem;
+  font-family: "Segoe UI black";
+  padding: 20px 20px;
+  color: #0262cb;
+  background-color: #81bdff;
+}
+.profile-reputation-card h4 {
+  font-size: 1.125rem;
+  font-family: "Segoe UI bold";
+  padding: 20px 20px;
+}
+.reputation-vip-features {
+  padding: 20px;
+}
+.profile-reputation-container .blue-underline {
+  border-color: white;
+  margin-bottom: 0;
+}
+.reputation-upgrade-btn {
+  padding: 20px;
+}
+.reputation-upgrade-btn a {
+  width: 100%;
+}
 /* ================= media query ================ */
 
 @media screen and (max-width: 430px) {
