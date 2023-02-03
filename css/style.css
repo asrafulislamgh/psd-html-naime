@@ -743,6 +743,11 @@ textarea {
   font-size: 1.125rem;
   color: #666666;
 }
+.profile-action-container button {
+  text-transform: initial;
+  font-family: "Segoe UI Semibold";
+  font-size: 1rem;
+}
 /* ================= booking confirm ================ */
 .booking-btn {
   height: 47px;
