@@ -1005,17 +1005,20 @@ table .t-amount {
   bottom: -10px;
   left: -10px;
 }
-.photo-upload-box {
+.profile-photo-upload-box {
   min-height: 154px;
   border-radius: 10px;
   text-align: center;
   border: 2px solid #027bfe;
+  cursor: pointer;
 }
-.photo-upload-box i,
-p {
-  color: #027bfe;
+.profile-picture-text,
+.profile-picture-icon {
+  color: #027bfe !important;
 }
-
+.profile-picture-container input {
+  display: none;
+}
 /* ================= media query ================ */
 
 @media screen and (max-width: 430px) {
