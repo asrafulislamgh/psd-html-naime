@@ -967,6 +967,55 @@ table .t-amount {
 .reputation-upgrade-btn a {
   width: 100%;
 }
+/* ================= Profile pictures ================ */
+.profile-picture-wrapper {
+  height: calc(100vh - 163px);
+  padding-bottom: 20px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.profile-picture-container img {
+  border-radius: 10px;
+  height: 154px;
+}
+.profile-container {
+  height: 154px;
+  background-color: #027bfe;
+  border-radius: 10px;
+  position: relative;
+  width: 100%;
+}
+.profile-picture {
+  min-height: 154px;
+  overflow: hidden;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.delete-icon {
+  background-color: #e10000;
+  color: #ffffff;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  border: 2px solid white;
+  padding: 1px 5px;
+  bottom: -10px;
+  left: -10px;
+}
+.photo-upload-box {
+  min-height: 154px;
+  border-radius: 10px;
+  text-align: center;
+  border: 2px solid #027bfe;
+}
+.photo-upload-box i,
+p {
+  color: #027bfe;
+}
+
 /* ================= media query ================ */
 
 @media screen and (max-width: 430px) {
