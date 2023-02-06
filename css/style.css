@@ -1036,6 +1036,7 @@ table .t-amount {
 .profile-services-input .icon-btn {
   padding: 8px 12px;
 }
+
 .profile-service-container .form-control {
   border: 2px solid #027bfe !important;
   border-radius: 8px;
@@ -1056,13 +1057,6 @@ label,
 .profile-service-container .form-check-input[type="checkbox"]:checked {
   background-color: #fff;
 }
-/* .profile-service-container textarea:focus,
-input:focus {
-  color: #11a955;
-  border: none;
-  outline: none;
-} */
-
 /* ================= media query ================ */
 
 @media screen and (max-width: 430px) {
