@@ -1057,6 +1057,21 @@ label,
 .profile-service-container .form-check-input[type="checkbox"]:checked {
   background-color: #fff;
 }
+/* ================= profile personal ================ */
+.profile-personal-container .form-select {
+  border: 2px solid #027bfe !important;
+  color: #027bfe;
+  border-radius: 8px;
+}
+.profile-personal-container .selected-semibold-text {
+  color: #0262cb;
+}
+.profile-personal-container .form-check {
+  margin-left: 0 !important;
+}
+.profile-personal-container .pp-checkbox label {
+  color: #027bfe !important;
+}
 /* ================= media query ================ */
 
 @media screen and (max-width: 430px) {
