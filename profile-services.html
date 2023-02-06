@@ -10,6 +10,8 @@
   <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <!-- Bootstrap Font Icon CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
   <!-- Google Fonts Roboto -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
   <!-- MDB -->
@@ -58,33 +60,81 @@
     </nav>
 
 
-    <main>
+    <main class="profile-service-container">
       <div class="container">
-        <h3 class="semi-title">Text</h3>
+        <h3 class="semi-title">Services</h3>
       </div>
       <div>
         <div class="container profile-wrapper profile-field">
           <div class="input-info">
-            <h3>Title</h3>
-            <p class="sub-title">Some additional information about this field</p>
-            <div class="form-outline">
-              <input type="url" id="typeURL" class="form-control" />
-              <label class="form-label" for="typeURL">Placeholder...</label>
+            <h3>Incall and / or escort</h3>
+            <p class="sub-title">Set your preferences and details for both services.</p>
+            <div class="blue-underline pt-3"></div>
+            <h3>Escort</h3>
+            <p class="sub-title">Enter the location, it will auto-complete (typeahead function)</p>
+
+            <div class="profile-services-input d-flex">
+              <i class="bi bi-geo-alt-fill me-3"></i>
+              <div class="input-group">
+                <div id="search-autocomplete" class="form-outline no-border">
+                  <input type="search" id="form1" placeholder="Location" class="form-control ps-search-box" />
+                  <!-- <label class="form-label" for="form1">Location</label> -->
+                </div>
+                <button type="button" class="btn btn-primary icon-btn">
+                  <i class="bi bi-search"></i>
+                </button>
+              </div>
             </div>
-            <p class="char-count">
-              <span>0</span> / <span>250</span>
-            </p>
           </div>
-          <div class="textarea-info mb-3">
-            <h3>Description</h3>
-            <p class="sub-title">Even more explanation can be placed here</p>
-            <div class="form-outline">
-              <textarea class="form-control" id="textAreaExample" rows="6"></textarea>
-              <label class="form-label" for="textAreaExample">Description</label>
+
+          <div class="blue-underline pt-4"></div>
+          <div class="input-info">
+            <h3>Incall</h3>
+            <p class="sub-title">Note : below details are fake and can be adjusted if needed</p>
+            <div class="profile-services-input d-flex">
+              <i class="bi bi-geo-alt-fill me-3"></i>
+              <div id="search-autocomplete" class="form-outline">
+                <input type="search" id="form1" placeholder="Location" class="form-control" />
+              </div>
             </div>
-            <p class="char-count">
-              <span>0</span> / <span>1500</span>
-            </p>
+          </div>
+          <div class="profile-services-input d-flex mt-3">
+            <i class="bi bi-pin-map-fill me-3"></i>
+            <div class="form-outline">
+              <textarea class="form-control" placeholder="Details" id="textAreaExample" rows="3"></textarea>
+              <!-- <label class="form-label" for="textAreaExample">Details</label> -->
+            </div>
+          </div>
+          <div class="profile-services-input d-flex mt-3">
+            <i class="bi bi-telephone-fill me-3"></i>
+            <div id="search-autocomplete" class="form-outline">
+              <input type="search" id="form1" placeholder="Phone Number" class="form-control" />
+            </div>
+          </div>
+          <div class="profile-services-input d-flex mt-3">
+            <i class="bi bi-card-text me-3"></i>
+            <div class="form-outline">
+              <textarea class="form-control" placeholder="Details" id="textAreaExample" rows="3"></textarea>
+              <!-- <label class="form-label" for="textAreaExample">Details</label> -->
+            </div>
+          </div>
+          <div class="profile-services-input d-flex mt-3 align-items-center">
+            <i class="bi bi-eye-fill me-3"></i>
+            <p>Show address on arrival</p>
+            <div class="form-check form-switch ms-auto">
+              <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" />
+            </div>
+          </div>
+          <div class="profile-services-input d-flex mt-3 align-items-center">
+            <i class="bi bi-person-x-fill me-3"></i>
+            <p>Don’t show address on public profile</p>
+            <div class="form-check form-switch ms-auto">
+              <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked />
+            </div>
+          </div>
+
+          <div class="textarea-info mb-3">
+
             <a href="profile-dashboard.html" class="d-flex">
               <button type="button" class="btn btn-primary bg-cus-blue mt-4 mb-5 ms-auto">
                 <i class="fas fa-check me-2"></i>

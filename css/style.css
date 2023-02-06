@@ -450,24 +450,24 @@ textarea {
   position: relative;
   right: 0;
 }
-.input-group-prepend {
+.booking-wrapper-single-chat .input-group-prepend {
   background-color: #027bfe !important;
   border-radius: 6px;
 }
-.input-group-prepend input {
+.booking-wrapper-single-chat .input-group-prepend input {
   background-color: #81bdff !important;
 }
-.input-group-text {
+.booking-wrapper-single-chat .input-group-text {
   color: #fff;
   border: none !important;
 }
-.input-group input {
+.booking-wrapper-single-chat .input-group input {
   background-color: #81bdff !important;
 }
-.input-group input::placeholder {
+.booking-wrapper-single-chat .input-group input::placeholder {
   color: #027bfe !important;
 }
-.input-group-prepend:nth-child(4) {
+.booking-wrapper-single-chat .input-group-prepend:nth-child(4) {
   border-left: 1px solid #81bdff;
   border-right: 2px solid #81bdff;
 }
@@ -1024,6 +1024,45 @@ table .t-amount {
 .profile-picture-container input {
   display: none;
 }
+/* ================= profile services ================ */
+.profile-services-input i {
+  font-size: 1.5rem;
+  color: #81bdff;
+}
+.profile-services-input .btn i {
+  font-size: 1.25rem;
+  color: #fff;
+}
+.profile-services-input .icon-btn {
+  padding: 8px 12px;
+}
+.profile-service-container .form-control {
+  border: 2px solid #027bfe !important;
+  border-radius: 8px;
+}
+.profile-service-container .ps-search-box {
+  border-radius: 10px 0 0 10px;
+}
+.profile-service-container input::placeholder,
+textarea::placeholder,
+input,
+label,
+.form-outline label {
+  color: #027bfe !important;
+}
+.profile-service-container input {
+  color: #027bfe;
+}
+.profile-service-container .form-check-input[type="checkbox"]:checked {
+  background-color: #fff;
+}
+/* .profile-service-container textarea:focus,
+input:focus {
+  color: #11a955;
+  border: none;
+  outline: none;
+} */
+
 /* ================= media query ================ */
 
 @media screen and (max-width: 430px) {
