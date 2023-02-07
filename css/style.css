@@ -1108,6 +1108,8 @@ label,
 .delete-btn i {
   font-size: 1.5rem;
 }
+/* ================= settings preferences ================ */
+
 /* ================= media query ================ */
 
 @media screen and (max-width: 430px) {
