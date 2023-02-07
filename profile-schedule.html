@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Profile dashboard</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+
+  <!-- Bootstrap Font Icon CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <!-- MDB -->
+  <link rel="stylesheet" href="css/mdb.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="fonts/segoe/style.css" />
+</head>
+
+<body style="max-width: 450px; margin: 0 auto">
+  <!-- Start your project here-->
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-cus-blue">
+      <div class="container">
+        <div class="d-flex align-items-center">
+          <a class="navbar-brand" href="#"><img class="p-2" src="img/logo.png" alt="195" /></a>
+          <span class="sub-directory">/ profile</span>
+        </div>
+
+
+        <div class="d-flex">
+          <a class="dropdown-toggle d-flex align-items-center hidden-arrow" href="profile-dashboard.html"
+            id="navbarDropdownMenuAvatar" role="button" data-mdb-toggle="" aria-expanded="false">
+            <img src="img/profile.png" class="profile-icon-sm mx-2" height="36" loading="lazy" />
+          </a>
+
+          <!-- Dropdown menu  -->
+          <div class="dropdown">
+            <button class="btn shadow-none px-2" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown"
+              aria-expanded="false">
+              <i class="fas fa-ellipsis-v text-white"></i>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li><a class="dropdown-item" href="settings-free.html">Settings</a></li>
+              <li><a class="dropdown-item" href="#">Subscription</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Transactions</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Call History</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+    <main>
+
+      <div class="container profile-dashboard-wrapper profile-schedule-container d-flex flex-column position-relative">
+        <div class="content-header mt-4">
+          <h3>Schedule</h3>
+          <p>Select the days and times you want to work.</p>
+          <div class="d-flex">
+            <span class="sub-description">Temporarily pause all your availability</span>
+            <div class="form-check form-switch ms-auto">
+              <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" />
+            </div>
+          </div>
+          <div class="blue-underline pt-3"></div>
+          <!-- <i class="fas fa-check check-icon check-icon-green"></i> -->
+
+        </div>
+        <div class="row gy-2 mb-4">
+          <div class="col-2">
+            <h4 class="heading-2b">Day</h4>
+            <p class="paratext-1l">Status</p>
+          </div>
+          <div class="col-10">
+            <div class="row">
+              <div class="col-6">
+                <h4 class="heading-2b">From</h4>
+                <p class="paratext-1l">Hour / minute</p>
+              </div>
+              <div class="col-6">
+                <h4 class="heading-2b">To</h4>
+                <p class="paratext-1l">Hour / minute</p>
+              </div>
+            </div>
+          </div>
+          <h4 class="heading-2b  mt-3">MONDAY</h4>
+          <div class="col-2">
+            <a href="#">
+              <button class="delete-btn btn btn-outline-primary"><i class="bi bi-trash-fill"></i></button>
+            </a>
+          </div>
+          <div class="col-10">
+            <div class="row gx-2">
+              <div class="col-6 d-flex">
+                <select class="form-select me-1" aria-label="Default select example">
+                  <option selected>0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
+              </div>
+              <div class="col-6 d-flex">
+                <select class="form-select me-1" aria-label="Default select example">
+                  <option selected>0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <h4 class="heading-2l  mt-4">TUESDAY</h4>
+          <div class="col-2">
+            <a href="#">
+              <button class="delete-btn btn btn-primary text-white"><i class="bi bi-plus-lg"></i></button>
+            </a>
+          </div>
+          <div class="col-10 d-flex">
+            <p class="paratext-1l ms-auto">(not available)</p>
+          </div>
+          <h4 class="heading-2b mt-4 text-uppercase">Wednesday</h4>
+          <div class="col-2">
+            <a href="#">
+              <button class="delete-btn btn btn-outline-primary"><i class="bi bi-trash-fill"></i></button>
+            </a>
+          </div>
+          <div class="col-10">
+            <div class="row gx-2">
+              <div class="col-6 d-flex">
+                <select class="form-select me-1" aria-label="Default select example">
+                  <option selected>0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
+              </div>
+              <div class="col-6 d-flex">
+                <select class="form-select me-1" aria-label="Default select example">
+                  <option selected>0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <h4 class="heading-2b mt-4 text-uppercase">Thursday</h4>
+          <div class="col-2">
+            <a href="#">
+              <button class="delete-btn btn btn-outline-primary"><i class="bi bi-trash-fill"></i></button>
+            </a>
+          </div>
+          <div class="col-10">
+            <div class="row gx-2">
+              <div class="col-6 d-flex">
+                <select class="form-select me-1" aria-label="Default select example">
+                  <option selected>0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
+              </div>
+              <div class="col-6 d-flex">
+                <select class="form-select me-1" aria-label="Default select example">
+                  <option selected>0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <h4 class="heading-2l text-uppercase mt-4">Friday</h4>
+          <div class="col-2">
+            <a href="#">
+              <button class="delete-btn btn btn-primary text-white"><i class="bi bi-plus-lg"></i></button>
+            </a>
+          </div>
+          <div class="col-10 d-flex">
+            <p class="paratext-1l ms-auto">(not available)</p>
+          </div>
+          <h4 class="heading-2b mt-4 text-uppercase">Saturday</h4>
+          <div class="col-2">
+            <a href="#">
+              <button class="delete-btn btn btn-outline-primary"><i class="bi bi-trash-fill"></i></button>
+            </a>
+          </div>
+          <div class="col-10">
+            <div class="row gx-2">
+              <div class="col-6 d-flex">
+                <select class="form-select me-1" aria-label="Default select example">
+                  <option selected>0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
+              </div>
+              <div class="col-6 d-flex">
+                <select class="form-select me-1" aria-label="Default select example">
+                  <option selected>0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+      </div>
+      </div>
+
+    </main>
+    <footer class="bg-cus-blue fixed-bottom" style="margin: 0 auto; max-width: 450px;">
+      <div class="container">
+        <div class="container">
+          <div class="row">
+            <div class="col footer-tab text-center">
+              <a href="index-with-data.html"><i class="fas fa-home"></i>
+                <p>Home</p>
+              </a>
+            </div>
+            <div class="col footer-tab text-center">
+              <a href="chat-overview.html">
+                <i class="far fa-comment-dots"></i>
+                <span class="badge rounded-pill badge-notification bg-white">9</span>
+                <p>Chat</p>
+              </a>
+            </div>
+            <div class="col footer-tab text-center">
+              <a href="booking-actions.html">
+                <i class="far fa-bookmark"></i>
+                <span class="badge rounded-pill badge-notification bg-white">134</span>
+                <p>Bookings</p>
+              </a>
+            </div>
+            <div class="col active footer-tab text-center">
+              <a href="#">
+                <i class="far fa-user"></i>
+                <p>Profile</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+</body>
+
+</html>
