@@ -46,6 +46,14 @@ h3 {
 .bg-cus-blue {
   background: var(--custom-blue);
 }
+.container-wrapper {
+  min-height: calc(100vh - 163px);
+}
+.index-container-wrapper {
+  min-height: calc(100vh - 434px);
+}
+
+/*========================== Common style ========================== */
 
 .top-profile-bg {
   margin-top: 2px;
@@ -247,7 +255,6 @@ h3 {
   margin: -0.5rem -7px;
 }
 .booking-wrapper {
-  height: calc(100vh - 620px);
   padding-bottom: 20px;
   overflow-x: hidden;
   overflow-y: auto;
@@ -263,7 +270,7 @@ h3 {
   width: 75px;
 }
 .home-wrapper {
-  height: calc(100vh - 160px);
+  /* height: calc(100vh - 160px); */
   padding-bottom: 20px;
   overflow-x: hidden;
   overflow-y: auto;
@@ -303,7 +310,7 @@ h3 {
   color: #e10000;
 }
 .booking-wrapper-chat-overview {
-  height: calc(100vh - 200px);
+  /* height: calc(100vh - 200px); */
   padding-bottom: 20px;
 }
 .message-heading {
@@ -337,7 +344,7 @@ h3 {
 
 /* ================= Profile page style ================ */
 .profile-wrapper {
-  height: calc(100vh - 210px);
+  /* height: calc(100vh - 210px); */
   overflow-x: hidden;
   overflow-y: auto;
 }
@@ -407,7 +414,7 @@ textarea {
 }
 
 .booking-wrapper-single-chat {
-  height: calc(100vh - 250px);
+  /* height: calc(100vh - 250px); */
   overflow-x: hidden;
   overflow-y: auto;
 }
@@ -486,9 +493,10 @@ textarea {
 .chat-box i {
   font-size: 1.1rem;
 }
+
 /* ================= profile dashboard ================ */
 .profile-dashboard-wrapper {
-  height: calc(100vh - 163px);
+  /* height: calc(100vh - 163px); */
   padding-bottom: 20px;
   overflow-x: hidden;
   overflow-y: auto;
@@ -815,7 +823,6 @@ textarea {
 }
 /* ================= profile avatar ================ */
 .profile-avatar-wrapper {
-  height: calc(100vh - 163px);
   padding-bottom: 20px;
   overflow-x: hidden;
   overflow-y: auto;
@@ -856,7 +863,7 @@ textarea {
 }
 /* ================= profile transaction ================ */
 .profile-transaction-wrapper {
-  height: calc(100vh - 160px);
+  /* height: calc(100vh - 160px); */
   padding-bottom: 20px;
   overflow-x: hidden;
   overflow-y: auto;
@@ -974,7 +981,7 @@ table .t-amount {
 }
 /* ================= Profile pictures ================ */
 .profile-picture-wrapper {
-  height: calc(100vh - 163px);
+  /* height: calc(100vh - 163px); */
   padding-bottom: 20px;
   overflow-x: hidden;
   overflow-y: auto;
@@ -1039,10 +1046,10 @@ table .t-amount {
 
 .profile-service-container .form-control {
   border: 2px solid #027bfe !important;
-  border-radius: 8px;
+  border-radius: 5px;
 }
 .profile-service-container .ps-search-box {
-  border-radius: 10px 0 0 10px;
+  border-radius: 5px 0 0 5px;
 }
 .profile-service-container input::placeholder,
 textarea::placeholder,
