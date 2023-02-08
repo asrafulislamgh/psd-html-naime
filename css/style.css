@@ -350,7 +350,7 @@ h3 {
 .profile-wrapper {
   /* height: calc(100vh - 210px); */
   overflow-x: hidden;
-  overflow-y: auto; */
+  overflow-y: auto;
 }
 .input-info .textarea-info {
   margin-bottom: 1.6rem;
