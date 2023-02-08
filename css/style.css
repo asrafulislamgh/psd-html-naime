@@ -225,6 +225,11 @@ h3 {
 .footer-tab:hover a {
   color: rgba(255, 255, 255, 1);
 }
+.setting-preferences .footer-tab.active a,
+.setting-preferences .footer-tab:hover a {
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+}
 .alert-box {
   background-color: rgb(255, 255, 255);
   border-radius: 1.2rem;
