@@ -254,6 +254,11 @@ h3 {
   font-size: 0.9rem;
   margin: -0.5rem -7px;
 }
+.setting-preferences .footer-tab span {
+  color: var(--custom-blue);
+  font-size: 0.9rem;
+  margin: -0.35rem 38px;
+}
 .booking-wrapper {
   /* height: calc(100vh - 620px); */
   padding-bottom: 20px;
