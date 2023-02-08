@@ -255,7 +255,7 @@ h3 {
   margin: -0.5rem -7px;
 }
 .booking-wrapper {
-  height: calc(100vh - 620px);
+  /* height: calc(100vh - 620px); */
   padding-bottom: 20px;
   min-height: 70vh;
   /* overflow-x: hidden; */
@@ -273,7 +273,7 @@ h3 {
   width: 75px;
 }
 .home-wrapper {
-  height: calc(100vh - 160px);
+  /* height: calc(100vh - 160px); */
   padding-bottom: 20px;
   /* height: calc(100vh - 160px);
   overflow-x: hidden;
@@ -499,11 +499,10 @@ textarea {
 
 /* ================= profile dashboard ================ */
 .profile-dashboard-wrapper {
-  height: calc(100vh - 163px);
+  /* height: calc(100vh - 163px); */
   padding-bottom: 20px;
-  /* height: calc(100vh - 163px);
   overflow-x: hidden;
-  overflow-y: auto; */
+  overflow-y: auto;
 }
 .dashboard-header {
   margin-bottom: 2.8rem;
@@ -987,11 +986,10 @@ table .t-amount {
 }
 /* ================= Profile pictures ================ */
 .profile-picture-wrapper {
-  /* height: calc(100vh - 163px); */
   padding-bottom: 20px;
-  /* height: calc(100vh - 163px);
+  /* height: calc(100vh - 163px); */
   overflow-x: hidden;
-  overflow-y: auto; */
+  overflow-y: auto;
 }
 .profile-picture-container img {
   border-radius: 10px;
